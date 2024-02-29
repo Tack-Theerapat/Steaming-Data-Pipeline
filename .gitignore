@@ -2,3 +2,4 @@ test
 .vscode
 .metals
 .bsp
+.scala-build
