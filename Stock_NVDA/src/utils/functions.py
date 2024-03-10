@@ -2,6 +2,7 @@ import io
 import requests
 import avro.schema
 import avro.io
+from kafka import KafkaProducer
 # def load_client(token):   
 #     return token
 
