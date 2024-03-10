@@ -7,3 +7,10 @@ services:
       context: ./kafka
       dockerfile: Dockerfile
     container_name: kafka
+
+  stock-price:
+    build:
+      context: ./Stock_NVDA
+      dockerfile: Dockerfile
+    container_name: stock-price
+
